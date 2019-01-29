@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Мой Магазин</title>
+	<link rel="stylesheet"
+		  href="main_css.css">
+	<script defer src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+	<script defer src="main_js.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		  integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">-->
+</head>
+
+<body id="main">
+
+<header id="header">
+	<div id="nav-list-clone">
+		<p><a class="nav-link" href="#stealth">Миссия проекта</a></p>
+		<p><a class="nav-link" href="#combat">Наши услуги</a></p>
+		<p><a class="nav-link" href="#weapons">Видео галлерея</a></p>
+	</div>
+	<h1 id="title">Говорильня на паяхъ</h1><br>
+	<div id="header-img-div">
+		<img id="header-img" src="Images\garfield-garfild-cat-kot.png" alt="CAT"
+			 onerror="this.src='https://img2.goodfon.ru/wallpaper/nbig/1/7f/garfield-garfild-cat-kot.jpg'"><br>
+	</div>
+	<nav id="nav-bar">
+		<div id="nav-list">
+			<p><a class="nav-link" href="#proj-desc">Миссия проекта</a></p>
+			<p><a class="nav-link" href="#services-desc">Наши услуги</a></p>
+			<p><a class="nav-link" href="#video-sample">Видео галлерея</a></p>
+		</div>
+	</nav>
+</header>
+
+<main>
+	<section id="proj-desc">
+		<div class="icon"><i class="far fa-3x fa-comment"></i>
+			<p class="description">Вот вроде простая вещь – сесть и поговорить по душам. Ан нет. Много ли мы помним
+				таких разговоров? Повезло тем, у кого есть подобные воспоминания из детства. Когда рядом садился наш
+				близкий человек – мама или папа, бабушка или дедушка – и вели с нами неспешную беседу о жизни, о нас, о
+				прошлом, о будущем. Таким важным человеком в важном для нас разговоре мог стать наш друг, учитель,
+				возлюбленный или однокурсник.
+				<br>
+				Но, к сожалению, не у всех из нас есть такой значимый опыт. Или его так мало, что не хватило нам, не
+				напитались. И тоска по хорошему разговору остается. С собутыльниками, случайными знакомыми пытаемся мы
+				утолить свою жажду общения: пресловутое «А, поговорить?» Многие именно за ним, за <b>настоящим</b>
+				разговором
+				приходят к психологу, психотерапевту.</p>
+		</div>
+	</section>
+	<section id="services-desc">
+		<div class="icon"><i class="far fa-3x fa-lightbulb"></i>
+			<ul class="description-list">
+				<li>квалифицированные специалисты;</li>
+				<li>поддержка и помощь в трудные времена;</li>
+				<li>душевное общение;</li>
+				<li>тренинговое пространство для общения и познания себя;</li>
+				<li>возможность лучше узнать себя с личностной и профессиональной стороны.</li>
+			</ul>
+		</div>
+	</section>
+	<form id="form" action="https://www.freecodecamp.com/email-submit">
+		<label id="email-label">Введите вашу почту <input name="email" type="email" id="email" required
+														  placeholder="@mail.ru"></label>
+		<input type="submit" id="submit" value="Оформить подписку"></input>
+	</form>
+	<section id="video-sample">
+		<div class="icon"><i class="fas fa-3x fa-sync fa-spin"></i>
+			<iframe id="video" height="315" class="description-list"
+					src="https://www.youtube-nocookie.com/embed/5uavA1wodhI?rel=0&amp;controls=0&amp;showinfo=0"
+					frameborder="0" allowfullscreen></iframe>
+		</div>
+	</section>
+</main>
+
+</body>
+</html>
